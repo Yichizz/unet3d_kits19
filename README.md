@@ -11,21 +11,21 @@ All the results shown in *report/yz870_project_28.pdf* can be reproduced by foll
 To install this project, follow these steps:
 1. Clone from the Gitlab Repository
 ```
-git clone https://gitlab.developers.cam.ac.uk/phy/data-intensive-science-mphil/projects/yz870.git
+git clone https://github.com/Yichizz/unet3d_kits19.git
 ```
 2. Create and activate new conda environment
 ```
-conda env create -f yz870/environment.yml
+conda env create -f unet3d_kits19/environment.yml
 conda activate project_28
 ```
 3. Download the segmentations from KiTS19 Data repository
 ```
 git clone https://github.com/neheller/kits19
-mv kits19/data yz870/data
+mv kits19/data unet3d_kits19/data
 ```
 4. Download the image data from a separate source
 ```
-cd yz870
+cd unet3d_kits19
 python3 -m data_preparation.get_imaging
 ```
 The `data/` directory should then be structured as follows
