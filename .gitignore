@@ -1,0 +1,17 @@
+# ignore Dataset folde
+data/
+
+#ignore temporary files
+tmp*
+
+figs/
+results/
+predictions/
+
+*/__pycache__/
+.pytest_cache/
+*/*.pyc
+
+#ignore docs except for the doxyfile
+docs/*
+!docs/Doxyfile
